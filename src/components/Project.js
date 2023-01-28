@@ -1,5 +1,4 @@
 import React from "react";
-//import data from "../project_data/dataStore";
 import ecimage from "../components/image/eg.png"
 import rodeImage from "../components/image/rode.png"
 import auth from "../components/image/auth.png"
