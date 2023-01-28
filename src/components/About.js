@@ -20,7 +20,7 @@ const About =()=>{
         <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">SKILLS</h1>
-    </div>
+  
      <div
     className="max-w-[1400px] bg-[#ffffff]  text-2xl font-serif text-[#333333] p-10 rounded-3xl flex flex-row gap-10 flex-wrap items-center justify-center "
   >
@@ -74,7 +74,7 @@ const About =()=>{
       <img src={vscode} alt="" className="h-[40px] text-[#333333]" />
       <h3 className="text-[15px] font-bold">VSCODE</h3>
     </div>
-  
+    </div>
   </div>
   </div>
       </section>

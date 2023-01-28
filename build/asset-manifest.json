@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7563f90b.css",
+    "main.js": "/static/js/main.7d15c32a.js",
+    "static/media/rode.png": "/static/media/rode.49c99d1dbb7d591eba7c.png",
+    "static/media/auth.png": "/static/media/auth.9a8c580f6ac92a57f5aa.png",
+    "static/media/asu.jpg": "/static/media/asu.23edac1145d0a5e83a96.jpg",
+    "static/media/eg.png": "/static/media/eg.9f4b7295f93a8ce2b9f4.png",
+    "static/media/api.svg": "/static/media/api.a9634b75e82c964d4e4d828f21fcf444.svg",
+    "static/media/react.svg": "/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/css.svg": "/static/media/css.2f489abec175e48a6eb1664523fdb2c8.svg",
+    "static/media/html.svg": "/static/media/html.bff21c242216cace31a4a2297b7fcd82.svg",
+    "static/media/firebase.svg": "/static/media/firebase.276e110384b4d3db427b943310172dc9.svg",
+    "static/media/javascript.svg": "/static/media/javascript.073149757fbeb5b24d7f1e6c8fdd2100.svg",
+    "static/media/vscode.svg": "/static/media/vscode.b8b1e001813039750e6c05c236ab0d46.svg",
+    "index.html": "/index.html",
+    "main.7563f90b.css.map": "/static/css/main.7563f90b.css.map",
+    "main.7d15c32a.js.map": "/static/js/main.7d15c32a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7563f90b.css",
+    "static/js/main.7d15c32a.js"
+  ]
+}
