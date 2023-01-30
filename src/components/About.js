@@ -6,13 +6,30 @@ import firebase from "../components/skillAssets/firebase.svg"
 import javascript from "../components/skillAssets/javascript.svg"
 import react from "../components/skillAssets/react.svg"
 import vscode from "../components/skillAssets/vscode.svg"
+import { TypeAnimation } from 'react-type-animation';
 const About =()=>{
     return(
         <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20 bg-white">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">ABOUT ME</h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-2xl animate-pulse">I'm a FRONT-END WEB DEVELOPER. I have done my training in Bootcamp of full Stack JavaScript
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-2xl">
+            <spam className="text-blue-700 text-2xl font-serif font-medium">
+              <TypeAnimation 
+               sequence={[
+                'I,M', 
+                1000, 
+                'A FRONT-END WEB DEVELOPER', 
+                2000,
+                'AND UI/UX DESIGNER.',
+                2000,
+              ]}
+              wrapper="div"
+              cursor={true}
+              repeat={Infinity}
+              />
+            </spam>
+            I have done my training in Bootcamp of full Stack JavaScript
            from iNeuron by Hitesh choudhary sir. Recently, I'm B-Tech final year student and excited to work with organisation.</p>
           </div>
          </div>

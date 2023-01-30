@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Project from "./components/Project";
-import Contact from "./components/Contact";
+//import Contact from "./components/Contact";   TODOS: UPDATED IN FUTURE
 import Footer from "./components/Footer";
 
 const Home =()=> {
@@ -14,7 +14,7 @@ const Home =()=> {
     <HeroSection />
     <About />
     <Project />
-    <Contact />
+    {/* <Contact /> */}
     <Footer />
     </>
     
