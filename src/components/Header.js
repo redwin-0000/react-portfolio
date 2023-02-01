@@ -10,9 +10,21 @@ const Header=()=> {
         <span className="ml-3 text-xl font-bold">Ashutosh Singh</span>
       </div>
       <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-        <h2 className="mr-5 hover:text-gray-900 cursor-pointer" onClick={()=>{nav("/Home")}}>Home</h2>
-        <h2 className="mr-5 hover:text-gray-900 cursor-pointer" onClick={()=>{nav("/About")}}>About</h2>
-        <h2 className="mr-5 hover:text-gray-900 cursor-pointer" onClick={()=>{nav("/Project")}}>Project</h2>
+        <h2 className="mr-5 hover:text-gray-900 cursor-pointer" onClick={()=>{
+          document
+          .getElementById("home")
+          .scrollIntoView({behavior: "smooth"})
+        }}>Home</h2>
+        <h2 className="mr-5 hover:text-gray-900 cursor-pointer" onClick={()=>{
+          document
+          .getElementById("about")
+          .scrollIntoView({behavior:"smooth"})
+        }}>About</h2>
+        <h2 className="mr-5 hover:text-gray-900 cursor-pointer" onClick={()=>{
+          document
+          .getElementById("project")
+          .scrollIntoView({behavior:"smooth"})
+        }}>Project</h2>
         <a className="mr-5 hover:text-gray-900 cursor-pointer" href="https://redwinj.hashnode.dev/">Blog</a>
       </nav>
     </div>

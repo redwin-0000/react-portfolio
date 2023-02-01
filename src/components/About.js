@@ -9,7 +9,7 @@ import vscode from "../components/skillAssets/vscode.svg"
 import { TypeAnimation } from 'react-type-animation';
 const About =()=>{
     return(
-        <section className="text-gray-600 body-font">
+        <section id="about" className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20 bg-white">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">ABOUT ME</h1>
@@ -33,7 +33,7 @@ const About =()=>{
            from iNeuron by Hitesh choudhary sir. Recently, I'm B-Tech final year student and excited to work with organisation.</p>
           </div>
          </div>
-
+                                                            {/* skills */}
         <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">SKILLS</h1>
@@ -43,28 +43,28 @@ const About =()=>{
   >
    
     <div
-      className="bg-white p-2 text-center rounded-md transition-all ease-linear delay-150 hover:shadow-2xl hover:animate-spin border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px] skew-y-12 animate-bounce"
+      className="bg-white p-2 text-center rounded-md transition-all ease-linear delay-150 hover:shadow-2xl  border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px]"
     >
       <img src={html} alt="" className="h-[40px] text-[#333333]" />
       <h3 className="text-[15px] font-bold">HTML</h3>
     </div>
    
     <div
-      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl hover:animate-spin border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px] skew-y-12 animate-bounce"
+      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl  border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px]"
     >
       <img src={api} alt="" className="h-[40px] text-[#333333]" />
       <h3 className="text-[15px] font-bold">REST API</h3>
     </div>
    
     <div
-      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl hover:animate-spin border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px] skew-y-12 animate-bounce"
+      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px]"
     >
       <img src={css} alt="" className="h-[40px] text-[#333333]" />
       <h3 className="text-[15px] font-bold">CSS</h3>
     </div>
    
     <div
-      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl  hover:animate-spin  border duration-100 flex items-center justify-center flex-col w-[110x] h-[110px] skew-y-12 animate-bounce"
+      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl   border duration-100 flex items-center justify-center flex-col w-[110x] h-[110px]"
     >
       <img src={firebase} alt="" className="h-[40px] text-[#333333]" />
       <h3 className="text-[15px] font-bold">FIREBASE</h3>
@@ -72,21 +72,21 @@ const About =()=>{
   
    
     <div
-      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl hover:animate-spin border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px] skew-y-12 animate-bounce"
+      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl  border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px]"
     >
       <img src={javascript} alt="" className="h-[40px] text-[#333333]" />
       <h3 className="text-[15px] font-bold">JAVASCRIPT</h3>
     </div>
     
     <div
-      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl hover:animate-spin border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px] skew-y-12 animate-bounce" 
+      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px]" 
     >
       <img src={react} alt="" className="h-[40px] text-[#333333]" />
       <h3 className="text-[15px] font-bold">REACT</h3>
     </div>
    
     <div
-      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl hover:animate-spin border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px] skew-y-12 animate-bounce"
+      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl  border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px]"
     >
       <img src={vscode} alt="" className="h-[40px] text-[#333333]" />
       <h3 className="text-[15px] font-bold">VSCODE</h3>

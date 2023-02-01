@@ -4,7 +4,7 @@ import rodeImage from "../components/image/rode.png"
 import auth from "../components/image/auth.png"
 const Project =()=>{
 return(
-<section className="text-gray-600 body-font bg-gray-200">
+<section id="project" className="text-gray-600 body-font bg-gray-200">
 <h2 className="sm:text-3xl text-center  text-2xl text-gray-900">PROJECT</h2>
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap -m-4">
