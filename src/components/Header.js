@@ -1,8 +1,7 @@
 import React from "react";
-import {useNavigate} from "react-router-dom";
 
 const Header=()=> {
-    const nav = useNavigate()
+  
   return (
     <header className="text-gray-600 body-font top-0 sticky bg-gray-300">
     <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
