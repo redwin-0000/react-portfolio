@@ -26,8 +26,8 @@ const data = {
             img:img2,
             title: 'Authentication with Firebase',
             technology:'ReactJs, CSS, JavaScript, firebase',
-            live:'',
-            Repo:''
+            live:'https://master--authe-firebase.netlify.app/',
+            Repo:'https://github.com/redwin-0000/authentication'
         },
         {
             id:3,
@@ -35,7 +35,7 @@ const data = {
             title: 'Body Mass Index',
             technology:'React-js, tailwind, JavaScript',
             live:'',
-            Repo:''
+            Repo:'https://github.com/redwin-0000/fitness'
         },
         {
             id:4,
@@ -50,64 +50,64 @@ const data = {
             img:img5,
             title: 'Rode clone',
             technology:'HTML, CSS',
-            live:'',
-            Repo:''
+            live:'https://rode-poj-clone.netlify.app/',
+            Repo:'https://github.com/redwin-0000/rode-clone'
         },
         {
             id:6,
             img:img6,
             title: 'UI Color Selectore',
             desc:'HTML, tailwind, JavaScript',
-            live:'',
-            Repo:''
+            live:'https://ui-color-plates.netlify.app/',
+            Repo:'https://github.com/redwin-0000/colors-plates'
         },
         {
             id:7,
             img:img7,
             title: 'Paytm clone',
             technology:'HTML, tailwind',
-            live:'',
-            Repo:''
+            live:'https://paytm-clone-app-0000.netlify.app/',
+            Repo:'https://github.com/redwin-0000/paytm-clone'
         },
         {
             id:8,
             img:img8,
             title: 'Street Landing Page',
             technology:'HTML, CSS',
-            live:'',
-            Repo:''
+            live:'https://street-landing-page-14.netlify.app/',
+            Repo:'https://github.com/redwin-0000/Street-Style-Landing-Page-14-master'
         },
         {
             id:9,
             img:img9,
-            title: 'Monstera',
+            title: 'Visual Disginer',
             technology:'HTML, CSS',
-            live:'',
-            Repo:''
+            live:'https://github.com/redwin-0000/Visual-Designer-15-master',
+            Repo:'https://proj-15.netlify.app/'
         },
         {
             id:10,
             img:img10,
             title: 'Monstera',
             technology:'HTML, CSS',
-            live:'',
-            Repo:''
+            live:'https://live-project-monstera-06.netlify.app/',
+            Repo:'https://github.com/redwin-0000/live-class-project-6'
         },
         {
             id:11,
             img:img11,
-            title: 'Monstera',
+            title: 'ITBP',
             technology:'HTML, CSS',
-            live:'',
-            Repo:''
+            live:'https://sunny-gumption-dc144c.netlify.app/',
+            Repo:'https://github.com/redwin-0000/itbp'
         },
         {
             id:12,
             img:img12,
             title: 'Monstera',
             technology:'HTML, CSS',
-            live:'',
-            Repo:''
+            live:'https://proj-12.netlify.app/',
+            Repo:'https://github.com/redwin-0000/project-12'
         }
     ]
 }
