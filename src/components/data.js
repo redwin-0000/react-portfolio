@@ -10,6 +10,9 @@ import img9 from './image/monstera.png';
 import img10 from './image/shopify.png';
 import img11 from './image/visualDesginer.png';
 import img12 from './image/proj.png';
+import img13 from './image/proj.png';
+import img14 from './image/proj.png';
+
 
 const data = {
     cardData:[
@@ -108,7 +111,23 @@ const data = {
             technology:'HTML, CSS',
             live:'https://proj-12.netlify.app/',
             Repo:'https://github.com/redwin-0000/project-12'
-        }
+        },
+         {
+            id:13,
+            img:img13,
+            title: 'Quiz App',
+            technology:'ReactJs, JavaScript',
+            live:"https://quizapp-react-js.netlify.app/",
+            Repo:"https://github.com/redwin-0000/quiz-app"
+        },
+        {
+            id:14,
+            img:img14,
+            title: 'The Sociyo',
+            technology:'ReactJs, Tailwind, JavaScript',
+            live:"https://sociyo.netlify.app/",
+            Repo:"https://github.com/redwin-0000/The-Sociyo"
+        },
     ]
 }
 
