@@ -115,18 +115,18 @@ const data = {
          {
             id:13,
             img:img13,
-            title: 'Quiz App',
+            title: 'The Sociyo',
             technology:'ReactJs, JavaScript',
-            live:"https://quizapp-react-js.netlify.app/",
-            Repo:"https://github.com/redwin-0000/quiz-app"
+            live:"https://sociyo.netlify.app/",
+            Repo:"https://github.com/redwin-0000/The-Sociyo"
         },
         {
             id:14,
             img:img14,
-            title: 'The Sociyo',
+            title: 'Quiz App',
             technology:'ReactJs, Tailwind, JavaScript',
-            live:"https://sociyo.netlify.app/",
-            Repo:"https://github.com/redwin-0000/The-Sociyo"
+            live:"https://quizapp-react-js.netlify.app/",
+            Repo:"https://github.com/redwin-0000/quiz-app"
         },
     ]
 }
