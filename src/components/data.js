@@ -10,8 +10,8 @@ import img9 from './image/monstera.png';
 import img10 from './image/shopify.png';
 import img11 from './image/visualDesginer.png';
 import img12 from './image/proj.png';
-import img13 from './image/proj.png';
-import img14 from './image/proj.png';
+import img13 from './image/sociyo.png';
+import img14 from './image/quiz.png';
 
 
 const data = {
