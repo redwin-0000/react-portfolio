@@ -13,15 +13,14 @@ const Animation=()=> {
         1000, 
         'ASHUTOSH SINGH', 
         1000,
-        'FRONT-END WEB DEVELOPER',
+        'FRONT-END REACT-JS WEB DEVELOPER',
         2000,
-        'AND UI/UX DESIGNER.',
+        'AND REACT-NATIVE APPLICATION DEVELOPER.',
         2000,
       ]}
       wrapper="div"
       cursor={true}
       repeat={Infinity}
-    //  style={{ fontSize: 'em' }}
     />
     </div>
    </>
