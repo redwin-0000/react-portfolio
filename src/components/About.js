@@ -84,7 +84,13 @@ const About =()=>{
       <img src={react} alt="" className="h-[40px] text-[#333333]" />
       <h3 className="text-[15px] font-bold">REACT</h3>
     </div>
-   
+   <div
+      className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px]" 
+    >
+      <img src={react} alt="" className="h-[40px] text-[#333333]" />
+      <h3 className="text-[11px] font-bold">REACT-NATIVE</h3>
+    </div>
+          
     <div
       className="bg-white p-2 text-center rounded-md delay-150 hover:shadow-2xl  border duration-100 flex items-center justify-center flex-col w-[110px] h-[110px]"
     >
